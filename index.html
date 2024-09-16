@@ -1,165 +1,192 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title>Win Or Lose</title>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300"/>
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="fontawesome/css/fontawesome-all.min.css" />
-        <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
-        <link rel="stylesheet" href="css/tooplate-style.css" />
+    <title>Win Or Lose</title>
 
-        <script>
-            document.documentElement.className = "js";
-            var supportsCssVars = function () {
-                var e,
-                    t = document.createElement("style");
-                return (
-                    (t.innerHTML = "root: { --tmp-var: bold; }"),
-                    document.head.appendChild(t),
-                    (e = !!(
-                        window.CSS &&
-                        window.CSS.supports &&
-                        window.CSS.supports("font-weight", "var(--tmp-var)")
-                    )),
-                    t.parentNode.removeChild(t),
-                    e
-                );
-            };
-            supportsCssVars() ||
-                alert(
-                    "請使用最新的瀏覽器（例如​​最新版本的 Chrome 或 Microsoft Edge）中查看此內容。"
-                );
-        </script>
-    </head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/tooplate-style.css" />
 
-    <body>
-        <div id="tm-bg"></div>
-        <div id="tm-wrap">
-            <div class="tm-main-content">
-                <div class="container tm-site-header-container">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6 col-md-col-xl-6 mb-md-0 mb-sm-4 mb-4 tm-site-header-col">
-                            <div class="tm-site-header">
-                                <h1 class="mb-4">Win Or Lose</h1>
-                                <img src="img/underline.png" class="img-fluid mb-4"/>
-                                <p>掌握趨勢，創造未來！</p>
+    <script>
+        document.documentElement.className = "js";
+        var supportsCssVars = function () {
+            var e,
+                t = document.createElement("style");
+            return (
+                (t.innerHTML = "root: { --tmp-var: bold; }"),
+                document.head.appendChild(t),
+                (e = !!(
+                    window.CSS &&
+                    window.CSS.supports &&
+                    window.CSS.supports("font-weight", "var(--tmp-var)")
+                )),
+                t.parentNode.removeChild(t),
+                e
+            );
+        };
+        supportsCssVars() ||
+            alert(
+                "請使用最新的瀏覽器（例如​​最新版本的 Chrome 或 Microsoft Edge）中查看此內容。"
+            );
+    </script>
+</head>
+
+<body>
+    <div id="tm-bg"></div>
+    <div id="tm-wrap">
+        <div class="tm-main-content">
+            <div class="container tm-site-header-container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-md-col-xl-6 mb-md-0 mb-sm-4 mb-4 tm-site-header-col">
+                        <div class="tm-site-header">
+                            <h1 class="mb-4">Win Or Lose</h1>
+                            <img src="img/underline.png" class="img-fluid mb-4">
+                            <p>掌握趨勢，創造未來！</p>        
+                        </div>                        
+                    </div>
+
+
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="content">
+                            <div class="grid">
+                                <div class="grid__item" id="home-link">
+                                    <a href="main.html">
+                                    <div class="product">
+                                        <div class="tm-nav-link">
+                                            <i class="fas fa-home fa-3x tm-nav-icon"></i>
+                                            <span class="tm-nav-text">首頁</span>
+                                            <div class="product__bg"></div>        
+                                        </div>                                    
+                                        <div class="product__description">
+                                            <div class="row mb-3">
+                                                <div class="col-12">
+                                                    <h2 class="tm-page-title"></h2>        
+                                                </div>
+                                            </div>                                        
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                </div>
+                                                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                </div>                                        
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+
+                            <div class="grid__item" id="team-link">
+                                <div class="product">
+                                    <div class="tm-nav-link">
+                                        <i class="fas fa-users fa-3x tm-nav-icon"></i>
+                                        <span class="tm-nav-text">我們的團隊</span>
+                                        <div class="product__bg"></div>
+                                    </div>
+                                    <div class="product__description">
+                                        <div class="p-sm-4 p-2">
+                                            <div class="row mb-3">
+                                                <div class="col-12">
+                                                    <h2 class="tm-page-title">我們的團隊</h2>
+                                                </div>
+                                            </div>
+                                            <div class="row tm-reverse-sm">
+                                                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                                                    <p class="mb-4">專業的理財顧問</p>
+                                                    <p class="mb-4">專業的投資顧問</p>
+                                                    <p class="mb-5">客製化的風險評估</p>
+                                                    <a href="#" class="btn tm-btn-gray">Read More</a>
+                                                </div>
+                                                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-lg-0 mb-sm-4 mb-4">
+                                                    <img src="img/team.jpg" class="img-fluid" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
 
 
-                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                            <div class="content">
-                                <div class="grid">
-                                    <div class="grid__item" id="home-link">
-                                        <a href="https://www.google.com.tw" class="product">
-                                            <div class="tm-nav-link">
-                                                <i class="fas fa-home fa-3x tm-nav-icon"></i>
-                                                <span class="tm-nav-text">首頁</span>
-                                                <div class="product__bg"></div>
-                                            </div>
-                                        </a>
+                            <div class="grid__item">
+                                <div class="product">
+                                    <div class="tm-nav-link">
+                                        <i class="fas fa-handshake fa-3x tm-nav-icon"></i>
+                                        <span class="tm-nav-text">合作夥伴</span>
+                                        <div class="product__bg"></div>
                                     </div>
-
-
-                                    <div class="grid__item" id="team-link">
-                                        <div class="product">
-                                            <div class="tm-nav-link">
-                                                <i class="fas fa-users fa-3x tm-nav-icon"></i>
-                                                <span class="tm-nav-text">我們的團隊</span>
-                                                <div class="product__bg"></div>
+                                    <div class="product__description">
+                                        <div class="p-sm-4 p-2">
+                                            <div class="row mb-3">
+                                                <div class="col-12">
+                                                    <h2 class="tm-page-title">合作夥伴</h2>
+                                                </div>
                                             </div>
-                                            <div class="product__description">
-                                                <div class="p-sm-4 p-2">
-                                                    <div class="row mb-3">
-                                                        <div class="col-12">
-                                                            <h2 class="tm-page-title">我們的團隊</h2>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row tm-reverse-sm">
-                                                        <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
-                                                            <p class="mb-4">專業的理財顧問</p>
-                                                            <p class="mb-4">專業的投資顧問</p>
-                                                            <p class="mb-5">客製化的風險評估</p>
-                                                            <a href="#" class="btn tm-btn-gray">Read More</a>
-                                                        </div>
-                                                        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-lg-0 mb-sm-4 mb-4">
-                                                            <img src="img/team.jpg" class="img-fluid"/>
+                                            <div class="row mb-3">
+                                                <div class="col-12">
+                                                    <p>我們有多年豐富的經驗</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="p-sm-4 p-2 tm-img-container">
+                                                        <div class="tm-img-slider" id="tmImgSlider">
+                                                            <a href="#" class="tm-slider-img-link"><img
+                                                                    src="img/gallery-img-01-tn.jpg" alt="Image 1"
+                                                                    class="img-fluid tm-slider-img" /></a>
+                                                            <a href="#" class="tm-slider-img-link"><img
+                                                                    src="img/gallery-img-02-tn.jpg" alt="Image 2"
+                                                                    class="img-fluid tm-slider-img" /></a>
+                                                            <a href="#" class="tm-slider-img-link"><img
+                                                                    src="img/gallery-img-03-tn.jpg" alt="Image 3"
+                                                                    class="img-fluid tm-slider-img" /></a>
+                                                            <a href="#" class="tm-slider-img-link"><img
+                                                                    src="img/gallery-img-04-tn.jpg" alt="Image 4"
+                                                                    class="img-fluid tm-slider-img" /></a>
+                                                            <a href="#" class="tm-slider-img-link"><img
+                                                                    src="img/gallery-img-05-tn.jpg" alt="Image 5"
+                                                                    class="img-fluid tm-slider-img" /></a>
+                                                            <a href="#" class="tm-slider-img-link"><img
+                                                                    src="img/gallery-img-06-tn.jpg" alt="Image 6"
+                                                                    class="img-fluid tm-slider-img" /></a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
 
 
-                                    <div class="grid__item">
-                                        <div class="product">
-                                            <div class="tm-nav-link">
-                                                <i class="fas fa-handshake fa-3x tm-nav-icon"></i>
-                                                <span class="tm-nav-text">合作夥伴</span>
-                                                <div class="product__bg"></div>
-                                            </div>
-                                            <div class="product__description">
-                                                <div class="p-sm-4 p-2">
-                                                    <div class="row mb-3">
-                                                        <div class="col-12">
-                                                            <h2 class="tm-page-title">合作夥伴</h2>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row mb-3">
-                                                        <div class="col-12">
-                                                            <p>我們有多年豐富的經驗</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <div class="p-sm-4 p-2 tm-img-container">
-                                                                <div class="tm-img-slider" id="tmImgSlider">
-                                                                    <a href="#" class="tm-slider-img-link" ><img src="img/gallery-img-01-tn.jpg" alt="Image 1" class="img-fluid tm-slider-img"/></a>
-                                                                    <a href="#" class="tm-slider-img-link"><img src="img/gallery-img-02-tn.jpg" alt="Image 2" class="img-fluid tm-slider-img"/></a>
-                                                                    <a href="#" class="tm-slider-img-link"><img src="img/gallery-img-03-tn.jpg" alt="Image 3" class="img-fluid tm-slider-img"/></a>
-                                                                    <a href="#" class="tm-slider-img-link" ><img src="img/gallery-img-04-tn.jpg" alt="Image 4" class="img-fluid tm-slider-img"/></a>
-                                                                    <a href="#" class="tm-slider-img-link"><img src="img/gallery-img-05-tn.jpg" alt="Image 5" class="img-fluid tm-slider-img"/></a>
-                                                                    <a href="#" class="tm-slider-img-link"><img src="img/gallery-img-06-tn.jpg" alt="Image 6" class="img-fluid tm-slider-img"/></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                            <div class="grid__item">
+                                <div class="product">
+                                    <div class="tm-nav-link">
+                                        <i class="fas fa-comments fa-3x tm-nav-icon"></i>
+                                        <span class="tm-nav-text">關於我們</span>
+                                        <div class="product__bg"></div>
+                                    </div>
+                                    <div class="product__description">
+                                        <div class="row mb-3">
+                                            <div class="col-12">
+                                                <h2 class="tm-page-title">Win Or Lose</h2>
                                             </div>
                                         </div>
-                                    </div>
-
-
-                                    <div class="grid__item">
-                                        <div class="product">
-                                            <div class="tm-nav-link">
-                                                <i class="fas fa-comments fa-3x tm-nav-icon"></i>
-                                                <span class="tm-nav-text">關於我們</span>
-                                                <div class="product__bg"></div>
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                <img src="img/welcome-1.jpg" class="img-fluid mb-3" />
+                                                <p>在投資的世界裡，<br>不是<strong style="font-size: 2rem;">賺</strong>；就是<strong
+                                                        style="font-size: 2rem;">賠</strong><br></p>
+                                                <p>如果不賺不賠，<br>那就是浪費時間！</p>
                                             </div>
-                                            <div class="product__description">
-                                                <div class="row mb-3">
-                                                    <div class="col-12">
-                                                        <h2 class="tm-page-title">Win Or Lose</h2>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                                                        <img src="img/welcome-1.jpg" class="img-fluid mb-3"/>
-                                                        <p>在投資的世界裡，<br>不是<strong style="font-size: 2rem;">賺</strong>；就是<strong style="font-size: 2rem;">賠</strong><br></p>
-                                                        <p>如果不賺不賠，<br>那就是浪費時間！</p>
-                                                    </div>
-                                                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                                                        <p>人生只有一次機會，<br>以前，你沒得選擇；<br>現在，重新投胎不是你唯一的選項。</p>
-                                                        <img src="img/welcome-2.jpg" class="img-fluid"/>
-                                                    </div>
-                                                </div>
+                                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                <p>人生只有一次機會，<br>以前，你沒得選擇；<br>現在，重新投胎不是你唯一的選項。</p>
+                                                <img src="img/welcome-2.jpg" class="img-fluid" />
                                             </div>
                                         </div>
                                     </div>
@@ -168,45 +195,49 @@
                         </div>
                     </div>
                 </div>
-                <footer>
-                    <p class="small tm-copyright-text">Copyright &copy;<span class="tm-current-year">2024</span> 雲端技術應用實務班 113-1</p>
-                </footer>
             </div>
-
         </div>
+        <footer>
+            <p class="small tm-copyright-text">Copyright &copy;<span class="tm-current-year">2024</span> 113-1雲端技術應用實務班 
+            </p>
+        </footer>
+    </div>
 
-        <script src="js/jquery-3.2.1.slim.min.js"></script>
+    </div>
 
-        <script src="slick/slick.min.js"></script>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
 
-        <script src="js/anime.min.js"></script>
+    <script src="slick/slick.min.js"></script>
 
-        <script src="js/main.js"></script>
-        <script>
-            function setupFooter() {
-                var pageHeight =
-                    $(".tm-site-header-container").height() +
-                    $("footer").height() +
-                    100;
+    <script src="js/anime.min.js"></script>
 
-                var main = $(".tm-main-content");
+    <script src="js/main.js"></script>
+    <script>
+        function setupFooter() {
+            var pageHeight =
+                $(".tm-site-header-container").height() +
+                $("footer").height() +
+                100;
 
-                if ($(window).height() < pageHeight) {
-                    main.addClass("tm-footer-relative");
-                } else {
-                    main.removeClass("tm-footer-relative");
-                }
+            var main = $(".tm-main-content");
+
+            if ($(window).height() < pageHeight) {
+                main.addClass("tm-footer-relative");
+            } else {
+                main.removeClass("tm-footer-relative");
             }
+        }
 
-            $(function () {
+        $(function () {
+            setupFooter();
+
+            $(window).resize(function () {
                 setupFooter();
-
-                $(window).resize(function () {
-                    setupFooter();
-                });
-
-                $(".tm-current-year").text(new Date().getFullYear());
             });
-        </script>
-    </body>
+
+            $(".tm-current-year").text(new Date().getFullYear());
+        });
+    </script>
+</body>
+
 </html>
